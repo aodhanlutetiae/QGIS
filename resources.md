@@ -19,11 +19,11 @@
 
 **Geodata sources**
 
-[Digimap](https://digimap.edina.ac.uk)
-[Digital elevation models (DEM) for the world - eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
-[Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
+- [Digimap](https://digimap.edina.ac.uk)
+- [Digital elevation models (DEM) for the world - eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
+- [Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
 
 
 **Suggested reading**
 
-[The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
+- [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)

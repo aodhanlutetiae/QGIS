@@ -10,16 +10,16 @@ The following points are introduced:
 
 **File types glossary**
 
-CSV
-DEM (digital elevation models)
-Geojson
-Geopackage
-Geotiff
-Geopandas
-GML
-GPX
-KML & KMZ
-LAS & LAX (lidar)
-OSM
-Shapefile
-Topojson
+- CSV
+- DEM (digital elevation models)
+- Geojson
+- Geopackage
+- Geotiff
+- Geopandas
+- GML
+- GPX
+- KML & KMZ
+- LAS & LAX (lidar)
+- OSM
+- Shapefile
+- Topojson
