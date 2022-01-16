@@ -30,3 +30,4 @@
 - [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
 - [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
 - [Overview of coordinate reference systems in R](https://www.nceas.ucsb.edu/sites/default/files/2020-04/OverviewCoordinateReferenceSystems.pdf)
+- [Geometric aspects of mapping by R Knippers](https://kartoweb.itc.nl/geometrics/Introduction/introduction.html)
