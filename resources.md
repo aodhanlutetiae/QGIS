@@ -22,8 +22,11 @@
 - [Digimap](https://digimap.edina.ac.uk)
 - [Digital elevation models (DEM) for the world - eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
 - [Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
+- [Ordnance Survey Great Britain Zoomstack](https://www.ordnancesurvey.co.uk/business-government/products/open-zoomstack)
 
 
 **Suggested reading**
 
 - [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
+- [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
+- [Overview of coordinate reference systems in R](https://www.nceas.ucsb.edu/sites/default/files/2020-04/OverviewCoordinateReferenceSystems.pdf)
