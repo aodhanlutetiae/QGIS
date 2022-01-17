@@ -20,8 +20,11 @@
 **Geodata sources**
 
 - [Digimap](https://digimap.edina.ac.uk)
+- [Digital Earth Africa](https://www.digitalearthafrica.org/products-and-services/datasets)
 - [Digital elevation models (DEM) for the world - eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
 - [Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
+- [GIS datasets](https://freegisdata.rtwilson.com/)
+- [Nuclear power stations worldwide](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
 - [Ordnance Survey Great Britain Zoomstack](https://www.ordnancesurvey.co.uk/business-government/products/open-zoomstack)
 
 - [Elevation file for Wales](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
@@ -34,3 +37,4 @@
 - [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
 - [Overview of coordinate reference systems in R](https://www.nceas.ucsb.edu/sites/default/files/2020-04/OverviewCoordinateReferenceSystems.pdf)
 - [Geometric aspects of mapping by R Knippers](https://kartoweb.itc.nl/geometrics/Introduction/introduction.html)
+- [Working with projections: QGIS](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_projections/working_with_projections.html#)

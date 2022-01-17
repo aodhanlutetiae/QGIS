@@ -16,9 +16,8 @@
 
 - Ensure the Layer Panel is visible: VIEW/PANELS/BROWSER
 
-- Ensure the Data Source Manager and Map Navigation toolbars are visible
+- Ensure the Data Source Manager, Map Navigation and Attributes toolbars are visible
   - VIEW/TOOLBARS/DATA SOURCE MANAGER
-  - VIEW/TOOLBARS/MAP NAVIGATION
   - VIEW/TOOLBARS/MAP NAVIGATION
   - VIEW/TOOLBARS/ATTRIBUTES
 
@@ -28,18 +27,18 @@
 
 **Import files and assemble map**
 
-- On the [LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en), download the Listed Buildings shapefile provided by Cadw
+- On the [LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en), download the *Listed Buildings* shapefile provided by Cadw
 
-- Place the file in the directory you want to keep it in. If you move it after working with it the path files will be lost.
+- Place the file in the directory you want to keep it in. If you move it after working with it the path files will be broken.
 
-- Examine the enclosed *Cadw_ListedBuildingsMPoint.prj* file using a text editor to see the projection: it refers to “OSGB 1936” and to “Transverse Mercator” and mentions several CRS codes: EPSG 7001, EPSG 6277, EPSG 8901, EPSG 4277, EPSG 9807, EPSG 27700. Close the file.
+- Examine the enclosed *Cadw_ListedBuildingsMPoint.prj* file using a text editor to see the projection: it refers to “OSGB 1936” and to “Transverse Mercator” and mentions several CRS codes.
 
 - Import the shapefile into QGIS using the Data Source Manager toolbar or LAYER/ADD LAYER/ADD VECTOR LAYER and locating the file locally using the Source selector.
 In the Layers panel, right-click on the Cadw_ListedBuildingsMPoint file and select Properties / Information. The CRS is “OSGB 1936” and the ‘method’ is “Transverse Mercator”. Under Properties / Source check the “Assigned Coordinate Reference System”: it reads OSGB 1936 / British National Grid.
 
 - Add a base map: WEB/QUICK MAP SERVICES / OSM / OpenStreetMap Monochrome
 
-- The base map layer appears in the Layers panel. Reorder the layers to hide the points layer: note the layers obscure each other. Correct by placing the points layer uppermost.
+- The base map layer appears in the Layers panel. Reorder the layers to hide the points layer: note that the layers obscure each other. Correct by placing the points layer uppermost.
 
 - Right-click to open the base map’s properties and adjust ‘Global Opacity’ to 30%
 
