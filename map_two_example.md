@@ -1,6 +1,6 @@
-<font size="4">
+<span style="font-size:14em;">
 QGIS Walkthrough 2: A points map of nuclear power stations in Europe
-</font>
+</span>
 
 - Download the shapefile from [Edinburgh Datashare](https://datashare.ed.ac.uk/handle/10283/2464?show=full).
 
