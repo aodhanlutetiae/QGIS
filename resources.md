@@ -24,6 +24,9 @@
 - [Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
 - [Ordnance Survey Great Britain Zoomstack](https://www.ordnancesurvey.co.uk/business-government/products/open-zoomstack)
 
+- [Elevation file for Wales](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
+- [Shapefile for contour map of Wales](https://datashare.ed.ac.uk/handle/10283/2410?show=full)
+
 
 **Suggested reading**
 
