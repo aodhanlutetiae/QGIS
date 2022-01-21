@@ -1,6 +1,4 @@
-<span style="font-size:14em;">
-QGIS Walkthrough 2: A points map of nuclear power stations in Europe
-</span>
+**QGIS Walkthrough 2: A points map of nuclear power stations in Europe**
 
 - Download the shapefile from [Edinburgh Datashare](https://datashare.ed.ac.uk/handle/10283/2464?show=full).
 
@@ -34,3 +32,11 @@ ESRI [writes](https://www.esri.com/arcgis-blog/products/arcgis-solutions/defense
 - Now compare Anglesey again in the map and in Google maps
 
 - Resize the dots that represent the power stations
+
+- Download the [global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase) with data and latitude, longitude points
+
+- Import into the map
+
+- Filter for just coal (solar are too numerous)
+
+- Peg circle colour to a variable - here output power. SO: "For anyone who is coming to this question and finds the links provided dead, you can achieve this by going into layer properties -> Symbology -> change to Graduated from the first dropdown and then change 'Method' to 'Size'."" | Also use Mode / Equal interval

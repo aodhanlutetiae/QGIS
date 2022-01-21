@@ -1,6 +1,6 @@
 **Theory**
 
-History: Quantum GIS 1.0 was released in 2009; when version 2.0 was released (in 2013), the name was changed to QGIS.
+Quantum GIS 1.0 was released in 2009; when version 2.0 was released in 2013, the name was changed to QGIS.
 
 The following points are introduced:
 
@@ -28,7 +28,7 @@ The following points are introduced:
 
 Glossary
 - CRS: Coordinate reference system. It contains:
-  - datum or starting point for 0, 0 such as 84 in WGS84
+  - datum
   - projection that converts angles on a round Earth to a flat surface (paper or screen)
 - EPSG: Code for a particular CRS. Stands for the now-defunct European Petroleum Survey Group. EPSG:4326 - WGS 84 is the default CRS for QGIS.
 - ETRS89: the EU-recommended reference system for geodata in Europe

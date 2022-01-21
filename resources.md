@@ -1,5 +1,6 @@
 **QGIS users online**
 
+
 - [User group for UK](https://qgis.uk/)
 - [Map examples on Flickr](https://www.flickr.com/groups/qgis/pool/)
 - [QGIS questions on GIS stack exchange](https://gis.stackexchange.com/questions/tagged/qgis)
@@ -10,12 +11,11 @@
 
 **Introductory courses**
 
-- [Spatial thoughts introduction (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html)
-- [Mapping & QGIS for journalists (Jonathan Soma)](https://jonathansoma.com/tutorials/mapping/)
 - [QGIS basics for journalists (Berkeley Advanced School of Journalism)](https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/)
 - [Intro to mapping and GIS for journalists (Knight Center MOOC)](https://journalismcourses.org/course/mappingandgis/)
+- [Mapping & QGIS for journalists (Jonathan Soma)](https://jonathansoma.com/tutorials/mapping/)
 - [The QGIS introductory course](https://docs.qgis.org/testing/en/docs/gentle_gis_introduction/index.html#gentle-introduction-gis)
-
+- [Spatial thoughts introduction (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html)
 
 **Geodata sources**
 
@@ -24,9 +24,9 @@
 - [Digital elevation models (DEM) for the world - eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
 - [Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
 - [GIS datasets](https://freegisdata.rtwilson.com/)
+- [Global power stations dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
 - [Nuclear power stations worldwide](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
 - [Ordnance Survey Great Britain Zoomstack](https://www.ordnancesurvey.co.uk/business-government/products/open-zoomstack)
-
 - [Elevation file for Wales](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
 - [Shapefile for contour map of Wales](https://datashare.ed.ac.uk/handle/10283/2410?show=full)
 
