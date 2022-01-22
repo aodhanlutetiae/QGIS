@@ -15,9 +15,9 @@
 - [Intro to mapping and GIS for journalists (Knight Center MOOC)](https://journalismcourses.org/course/mappingandgis/)
 - [Mapping & QGIS for journalists (Jonathan Soma)](https://jonathansoma.com/tutorials/mapping/)
 - [The QGIS introductory course](https://docs.qgis.org/testing/en/docs/gentle_gis_introduction/index.html#gentle-introduction-gis)
-- [Spatial thoughts introduction (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html)
+- [Ujaval Gandhi's introductory tutorials](https://www.qgistutorials.com/en/) & [Spatial thoughts site](https://courses.spatialthoughts.com/spatial-data-viz.html)
 
-**Geodata sources**
+**Geodata sources for these tutorials**
 
 - [Digimap](https://digimap.edina.ac.uk)
 - [Digital Earth Africa](https://www.digitalearthafrica.org/products-and-services/datasets)
@@ -33,6 +33,9 @@
 
 **Suggested reading**
 
+- [Mapschool: geo introduction](https://mapschool.io/)
+- [Geospatial analysis, 6th edition](https://spatialanalysisonline.com/HTML/index.html)
+- [So you want to make a map by Noah Veltman](https://github.com/veltman/learninglunches/tree/master/maps)
 - [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
 - [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
 - [Overview of coordinate reference systems in R](https://www.nceas.ucsb.edu/sites/default/files/2020-04/OverviewCoordinateReferenceSystems.pdf)
