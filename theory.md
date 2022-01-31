@@ -30,10 +30,13 @@ Glossary
 - CRS: Coordinate reference system. It contains:
   - datum
   - projection that converts angles on a round Earth to a flat surface (paper or screen)
-- EPSG: Code for a particular CRS. Stands for the now-defunct European Petroleum Survey Group. EPSG:4326 - WGS 84 is the default CRS for QGIS.
+- EPSG: Code for a particular CRS. Stands for the now-defunct European Petroleum Survey Group.
+  - EPSG:3857 Pseudo-Mercator: popular projection for web mapping. Used for Google Maps and OpenStreetMap
+  - EPSG:4326 - WGS 84: default CRS for QGIS.
 - ETRS89: the EU-recommended reference system for geodata in Europe
 - GPS: a global positioning system based on a series of satellites since 1978. It uses WGS84
 - Mercator: Popular projection by Gerardus Mercator (1569)
+
 - PROJ: files that contain information that defines a CRS
 - SRID: Spatial Reference ID
 - UTM: Universal Transverse Mercator, a common map projection

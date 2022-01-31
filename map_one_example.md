@@ -36,7 +36,7 @@
 - Import the shapefile into QGIS using the Data Source Manager toolbar or LAYER/ADD LAYER/ADD VECTOR LAYER and locating the file locally using the Source selector.
 In the Layers panel, right-click on the Cadw_ListedBuildingsMPoint file and select Properties / Information. The CRS is “OSGB 1936” and the ‘method’ is “Transverse Mercator”. Under Properties / Source check the “Assigned Coordinate Reference System”: it reads OSGB 1936 / British National Grid.
 
-- Add a base map: WEB/QUICK MAP SERVICES / OSM / OpenStreetMap Monochrome
+- Add a base map: WEB/QUICK MAP SERVICES / OSM / OpenStreetMap Monochrome. This has dropped in previous cases; if this happens you can replace with ESRI Grey (light).
 
 - The base map layer appears in the Layers panel. Reorder the layers to hide the points layer: note that the layers obscure each other. Correct by placing the points layer uppermost.
 
