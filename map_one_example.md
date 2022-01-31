@@ -2,17 +2,17 @@
 
 **Task**
 
-- To build a points map using a shapefile and a base map and publish it online.
+- To build a points map using a downloaded shapefile and a base map, filter by a variable, and export as a html file
 
 **Preparation**
 
-- Install QGIS if you don’t have it. The work below was done with version 3.22.
+- Install QGIS if you don’t have it. The work below was done with version 3.22
 
 - Install the qgis2web plugins via: PLUGINS/MANAGE AND INSTALL PLUGINS
 
 - Install extra base maps via: WEB/QUICKMAPSERVICES/SETTINGS/MORE SERVICES THEN “Get Contributed Pack”
 
-**Layout**
+**Start project & layout**
 
 - Ensure the Layer Panel is visible: VIEW/PANELS/BROWSER
 
@@ -21,32 +21,36 @@
   - VIEW/TOOLBARS/MAP NAVIGATION
   - VIEW/TOOLBARS/ATTRIBUTES
 
-- Open a New file (PROJECT/NEW) and save it in a folder of your choice (PROJECT/SAVE AS).
+- Open a New project (PROJECT/NEW) and save it in a folder of your choice (PROJECT/SAVE AS)
 
-- Add a title to the project, which will become the ‘title’ in any html you make (PROJECT / PROPERTIES / GENERAL / PROJECT TITLE)
+- Check the CRS that the project is using as default (PROJECT/PROPERTIES/CRS)
+
+- Add a title to the project, which will become the ‘title’ in any html you make (PROJECT/PROPERTIES/GENERAL/PROJECT TITLE)
 
 **Import files and assemble map**
 
-- On the [LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en), download the *Listed Buildings* shapefile provided by Cadw
+- On the [LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en), select the Downloads tab and download the *Listed Buildings* shapefile provided by Cadw
 
-- Place the file in the directory you want to keep it in. If you move it after working with it the path files will be broken.
+- Place the file in the directory you want to keep it in. If you move it after working with it the path files will be broken
 
-- Examine the enclosed *Cadw_ListedBuildingsMPoint.prj* file using a text editor to see the projection: it refers to “OSGB 1936” and to “Transverse Mercator” and mentions several CRS codes.
+- Examine the files inside the shapefile folder to see what is contained in the .SHP, .PRJ and .DBF files
 
-- Import the shapefile into QGIS using the Data Source Manager toolbar or LAYER/ADD LAYER/ADD VECTOR LAYER and locating the file locally using the Source selector.
-In the Layers panel, right-click on the Cadw_ListedBuildingsMPoint file and select Properties / Information. The CRS is “OSGB 1936” and the ‘method’ is “Transverse Mercator”. Under Properties / Source check the “Assigned Coordinate Reference System”: it reads OSGB 1936 / British National Grid.
+- Import the shapefile into QGIS using
+  - the Data Source Manager toolbar, or
+  - LAYER/ADD LAYER/ADD VECTOR LAYER to locate the file locally via Source selector, or
+  - Find the file in the Browser panel and double click to load
 
-- Add a base map: WEB/QUICK MAP SERVICES / OSM / OpenStreetMap Monochrome. This has dropped in previous cases; if this happens you can replace with ESRI Grey (light).
+- In the Layers panel, right-click on the Cadw_ListedBuildingsMPoint file and select Properties. Under Information, the CRS is “OSGB 1936” and under Source it reads "OSGB 1936 / British National Grid"
 
-- The base map layer appears in the Layers panel. Reorder the layers to hide the points layer: note that the layers obscure each other. Correct by placing the points layer uppermost.
+- Add a base map: WEB/QUICK MAP SERVICES/OSM/OpenStreetMap Monochrome or ESRI Grey (light). Rename both layers if you wish
 
-- Right-click to open the base map’s properties and adjust ‘Global Opacity’ to 30%
+- The base map layer appears in the Layers panel. Just as a demonstration, reorder the layers to hide the points layer: note that the layers obscure each other. Adjust the opacity of the base map (PROPERTIES/TRANSPARENCY). Undo these steps
 
 **Filter data and colour symbols**
 
-- With a right-click on the Points layer select ‘Filter’. Select Grade in Fields (upper left) then Sample or All in Values (upper right) to see what the different categories are for the ‘Grade’ variable attached to each data point. At the bottom of the dialogue box, write a SQL query to filter the data using a capital letter i and single quotes: "Grade" = 'I'
+- With a right-click on the Points layer select ‘Filter’. Select 'Grade' in Fields (upper left) then Sample or All in Values (upper right) to see what the different categories are for the ‘Grade’ variable attached to each data point. At the bottom of the dialogue box, write a SQL query to filter the data using a capital letter i and single quotes: "Grade" = 'I'
 
-- Using the layer Properties (right-click) select the Symbology tab and adjust the colour.
+- Using the layer Properties (right-click) select the Symbology tab and adjust the colour and size of the points
 
 - Using the Information tool on the Attributes toolbar click on a single point to see what information is attached.
 

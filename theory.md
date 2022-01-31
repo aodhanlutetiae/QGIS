@@ -9,6 +9,10 @@ The following points are introduced:
 - High / low watermarks
 - Filetypes
 - SQL, queries and joins
+- Scale
+- GIS vs cartography
+- Geographic and Projected CRS
+- EPSG 4326 & 3857
 
 **File types glossary**
 
