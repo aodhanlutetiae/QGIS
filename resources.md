@@ -33,10 +33,12 @@
 - [Listed buildings in Wales on LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en)
 - [Nuclear power stations around world (2011) on Edinburgh datashare site](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
 - [Eurostat: European countries](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)
+- [Global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
+- [LSOA areas in Wales](https://lle.gov.wales/catalogue/item/LowerSuperOutputAreas/?lang=en)
+- [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
+- [Local authority boundaries in Wales](http://lle.gov.wales/catalogue/item/LocalAuthorities)
 
-
-
-
+**Other**
 
 - [Digimap](https://digimap.edina.ac.uk)
 - [Digital Earth Africa](https://www.digitalearthafrica.org/products-and-services/datasets)
