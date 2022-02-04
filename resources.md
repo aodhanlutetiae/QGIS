@@ -34,7 +34,6 @@
 
 - [GIS: a use case for journalists. Jacques Marcoux](https://datajournalism.com/read/longreads/geographic-information-systems-a-use-case-for-journalists)
 - [Mapschool: geo introduction](https://mapschool.io/)
-- [Geospatial analysis, 6th edition](https://spatialanalysisonline.com/HTML/index.html)
 - [So you want to make a map by Noah Veltman](https://github.com/veltman/learninglunches/tree/master/maps)
 - [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
 - [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
