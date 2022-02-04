@@ -8,9 +8,9 @@ Read Marcoux 2019 (see Resources)
 DAY 1
 - Grade 1 listed buildings in Wales
 - Nuclear & coal power stations in Europe
-- Path map of Cardiff half marathon
 - Choropleth map of the deprivation index for Cardiff
-- Relief map of Wales?
+- Path map of Cardiff half marathon
 
 DAY 2
+- Relief map of Wales
 - Make your own map

@@ -1,4 +1,4 @@
-**QGIS Walkthrough 3: Index of multiple deprivation in Wales**
+**QGIS Walkthrough 3: Choropleth map of the index of multiple deprivation in Wales**
 
 **To build a choropleth map of all LSOAs and of a single local authority**
 
@@ -17,3 +17,5 @@
 - Filter the local authority boundaries to show just Cardiff. Use Vector / geoprocessing / clip to trim: the Input is the LSOA layer and the Overlay is the local authorities (currently filtered for just Cardiff).
 
 - Adjust the coloring to reflect each LSOA's ranking: Properties / Symbiology / Single Symbol --> Graduated / Value --> wimd_19_ranking_health / Color ramp / Mode --> Equal interval
+
+- BUILD PAPER PDF TO PRINT

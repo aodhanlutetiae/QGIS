@@ -17,6 +17,19 @@
 - [The QGIS introductory course](https://docs.qgis.org/testing/en/docs/gentle_gis_introduction/index.html#gentle-introduction-gis)
 
 
+
+**Geodata sources for walkthroughs in this repository**
+
+- [Listed buildings in Wales on LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en)
+- [Nuclear power stations around world (2011) on Edinburgh datashare site](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
+- [Eurostat: European countries](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)
+- [Global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
+- [LSOA areas in Wales](https://lle.gov.wales/catalogue/item/LowerSuperOutputAreas/?lang=en)
+- [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
+- [Local authority boundaries in Wales](http://lle.gov.wales/catalogue/item/LocalAuthorities)
+- [GPX route map for Cardiff half-marathon](https://www.plotaroute.com/route/335077)
+
+
 **Suggested reading**
 
 - [GIS: a use case for journalists. Jacques Marcoux](https://datajournalism.com/read/longreads/geographic-information-systems-a-use-case-for-journalists)
@@ -27,25 +40,3 @@
 - [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
 - [Working with projections: QGIS tutorial](https://www.qgistutorials.com/en/docs/3/working_with_projections.html)
 - [Projections, The Economist, Adam Meara](https://view.e.economist.com/?qs=f23f9794d30266884e9b9ef47429adf7da882e50b39595b641a5d6098301ed904ee26b6d1c53959e76fc54d8378cc1044744044878958cbc9ddd549010032a9d956836cd74c64a36b9c7ff64de8615d3)
-
-**Geodata sources for these tutorials**
-
-- [Listed buildings in Wales on LLE website](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en)
-- [Nuclear power stations around world (2011) on Edinburgh datashare site](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
-- [Eurostat: European countries](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)
-- [Global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
-- [LSOA areas in Wales](https://lle.gov.wales/catalogue/item/LowerSuperOutputAreas/?lang=en)
-- [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
-- [Local authority boundaries in Wales](http://lle.gov.wales/catalogue/item/LocalAuthorities)
-
-**Other**
-
-- [Digimap](https://digimap.edina.ac.uk)
-- [Digital Earth Africa](https://www.digitalearthafrica.org/products-and-services/datasets)
-- [Digital elevation models (DEM) for the world - eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
-- [Digital elevation models (DEM) for the world - viewfinder](http://viewfinderpanoramas.org/dem3.html)
-- [GIS datasets](https://freegisdata.rtwilson.com/)
-- [Global power stations dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
-- [Ordnance Survey Great Britain Zoomstack](https://www.ordnancesurvey.co.uk/business-government/products/open-zoomstack)
-- [Elevation file for Wales](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
-- [Shapefile for contour map of Wales](https://datashare.ed.ac.uk/handle/10283/2410?show=full)
