@@ -1,34 +1,26 @@
 **QGIS Walkthrough 2: A points map of nuclear power stations in Europe**
 
 **Task**
-To build a map of power stations in Europe and compare different CRS
+- Build a map of power stations in Europe
 
-- Open a New project (PROJECT/NEW) and save it in a folder of your choice (PROJECT/SAVE AS)
+- Open a New Project (PROJECT / NEW) and save it in a location of your choice (PROJECT / SAVE AS)
 
-- Check the CRS that the project is using as default (PROJECT/PROPERTIES/CRS): EPSG4326
+- Check the CRS that the project is using as default (PROJECT / PROPERTIES / CRS)
 
-- Download the shapefile of nuclear power stations from [Edinburgh Datashare](https://datashare.ed.ac.uk/handle/10283/2464?show=full).
+- Download the shapefile of nuclear power stations from [Edinburgh Datashare](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
 
-- Import the .shp file as a vector layer into QGIS. Check the CRS under PROJECT/PROPERTIES/ INFORMATION and SOURCE: EPSG:4326. You can also check the .PRJ file in the shapefile folder.
+- Import the .shp file as a vector layer into QGIS. Check the CRS under PROJECT / PROPERTIES / INFORMATION and SOURCE: EPSG:4326. You can also check the .PRJ file in the shapefile folder
 
-- Add a base map: Carto darkmatter. Check (rightclick / Properties / Source) the CRS: EPSG 3857
+- Download the European Countries map available at [Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries): Countries 2020 / 1 to 1 million / SHP
 
-- Download the European Countries map available at [Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries): Countries 2020 / 1 to 1 million / SHP.
+- Import a European coastline and an inland layer in EPSG:4326
 
-- Import a European coastline and an inland layer in EPSG:3035. Hit 'cancel' for the transformation boxes.
+- Add a base map: Carto darkmatter. Check (rightclick / Properties / Source) the CRS: EPSG:3857
 
-- Compare the station in Anglesey to [Google maps](https://www.google.com/maps/place/North+Wales/@53.4141455,-4.4818501,15.89z/data=!4m5!3m4!1s0x486541b670202709:0x87f67d40aaba0eb1!8m2!3d53.0711149!4d-3.8080783)
+- Download the [global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase) that holds data including latitude / longitude points
 
-<!-- - Right click on the base map layer (ESRI Grey Dark): LAYER CRS / SET PROJECT LAYER FROM CRS. The project and all its files are now using EPSG 3847 (WGS84 Pseudo Mercator) rather than EPSG:4326 - WGS 84
+- Import the CSV into the map using the Data Source Manager (don't just drag into the Layers panel), choosing 'Geometry definition' as 'Point coordinates' (and with EPSG:4326 selected)
 
-- Now compare Anglesey again in the map and in Google maps
+- Filter for just coal-powered stations using RC / FILTER / Fields / Primary fuel
 
-- Resize the dots that represent the power stations -->
-
-- Download the [global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase) with data and latitude, longitude points
-
-- Import into the map using the Data Source Manager (don't just drag into the Layers panel)
-
-- Filter for just coal (solar are too numerous)
-
-- Peg circle colour to a variable - here output power. PROPERTIES / SYMBOLOGY /  change to Graduated from the first dropdown and then change 'Method' to 'Color'. Also use Mode / Equal interval and tick 'Symmetric classification'. Finally, adjust the number ranges.
+- Link circle colour for the power stations to a variable - output power. PROPERTIES / SYMBOLOGY /  change the first dropdown from 'Single Symbol' to 'Graduated'. Select 'Capacity' under Value. Change 'Method' to 'Color'. Also use Mode / Equal interval and tick / untick 'Symmetric classification' to get the categories to show. Adjust the number of classes to 7. Finally, adjust the number ranges

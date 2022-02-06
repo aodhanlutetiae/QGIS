@@ -1,6 +1,8 @@
 **QGIS Walkthrough 4: A line map of the Cardiff half-marathon**
 
-**To build a line and points map of the Cardiff half-marathon and produce as a pdf map**
+**Task**
+
+- Build a line and points map of the Cardiff half-marathon and produce a pdf map
 
 - Download the [GPX file](https://www.plotaroute.com/route/335077) (type TRACK & waypoints DIRECTIONS)
 
@@ -8,7 +10,7 @@
 
 - Collect the route files into a group (right-click / Group)
 
-- Adjust the opacity on the base layer to 15% (Properties / Transparency)
+- Add a base layer (Stamen / Toner) and adjust the opacity on it to 15% (Properties / Transparency)
 
 - Adjust the colour and size of the points and line
 
@@ -18,9 +20,9 @@
 
 - Open File / new print layout and add a title when prompted. Under Add Item, select Add Map. Your map is now selected: drag a rectangle over the empty print page to select the space it will occupy.
 
-- Return to the map. Select the Text tool and turn off annotations with CMD+T. Copy the base layer and adjust it for a wider view
+<!-- - Return to the map. Select the Text tool and turn off annotations with CMD+T. Copy the base layer, adjust it for a wider view and put opacity at 100%
 
-- Return to the print layout and add the new base map in the corner of the print layout
+- Return to the print layout and add the new base map in the corner of the print layout -->
 
 - Add Item / Add Shape / rectangle
 - Add Item / Scale toolbar

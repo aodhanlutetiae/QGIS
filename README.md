@@ -3,7 +3,8 @@
 This 2-day introduction to the mapping software QGIS is based on a series of exercises to make maps of Wales and of Europe.
 
 PREP
-- Read Marcoux 2019 (see Resources)
+- Read Marcoux 2019 (see [Resources](https://github.com/aodhanlutetiae/QGIS/blob/main/resources.md))
+- Install QGIS if you don’t have it. The work in this repository was done with version 3.22
 
 DAY 1
 - Points map of Grade 1 listed buildings in Wales
