@@ -40,3 +40,4 @@
 - [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
 - [Working with projections: QGIS tutorial](https://www.qgistutorials.com/en/docs/3/working_with_projections.html)
 - [Projections, The Economist. Adam Meara](https://view.e.economist.com/?qs=f23f9794d30266884e9b9ef47429adf7da882e50b39595b641a5d6098301ed904ee26b6d1c53959e76fc54d8378cc1044744044878958cbc9ddd549010032a9d956836cd74c64a36b9c7ff64de8615d3)
+- [How the FT designs map. Steven Bernard. 2018](https://www.ft.com/content/35188c6a-4870-11e8-8ee8-cae73aab7ccb) and [Use of QGIS at the FT's graphics team. 2016](https://www.qgis.org/en/site/about/case_studies/qgis_at_financial_times.html)

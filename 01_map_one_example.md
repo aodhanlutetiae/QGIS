@@ -6,7 +6,7 @@
 
 **Preparation**
 
-- Install the qgis2web plugins via: PLUGINS / MANAGE AND INSTALL PLUGINS
+- Install the qgis2web and quickmapservices plugins via: PLUGINS / MANAGE AND INSTALL PLUGINS
 
 - Install extra base maps via: WEB / QUICKMAPSERVICES / SETTINGS / MORE SERVICES THEN “Get Contributed Pack”
 
@@ -33,7 +33,7 @@
 
 - Import the shapefile into QGIS using
   - the Data Source Manager toolbar, or
-  - LAYER/ADD LAYER/ADD VECTOR LAYER to locate the file locally via Source selector, or
+  - LAYER / ADD LAYER / ADD VECTOR LAYER to locate the file locally via Source selector, or
   - find the file in the Browser panel and double click to load (or drag to Layer panel)
 
 - In the Layers panel, right-click on the Cadw_ListedBuildingsMPoint file and select Properties. Under Information, the CRS is “OSGB 1936” and under Source it reads "OSGB 1936 | British National Grid"
@@ -42,7 +42,7 @@
 
 - The base map layer appears in the Layers panel. Just as a demonstration, reorder the layers to hide the points layer: note that the layers obscure each other. Undo these steps
 
-- Adjust the opacity of the base map (PROPERTIES / TRANSPARENCY).
+- Adjust the opacity of the base map (PROPERTIES / TRANSPARENCY)
 
 **Filter data and colour symbols**
 
@@ -50,14 +50,13 @@
 
 - Using the layer Properties (right-click) select the Symbology tab and adjust the colour and size of the points
 
-- Using the Information tool on the Attributes toolbar click on a single point to see what information is attached.
+- Using the Information tool on the Attributes toolbar click on a single point to see what information is attached
 
 **Save points layer as a separate file**
 
 - Right-click on layer, then: EXPORT / SAVE FEATURES AS. Choose File Name *and directory*
 
 - Rename the new layer and edit attribute table to remove unwanted fields (Layer RC / PROPERTIES / FIELDS / Toggle editing mode / Delete)
-
 
 **Export for web**
 
