@@ -27,7 +27,7 @@
 - [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
 - [Local authority boundaries in Wales, LLE](http://lle.gov.wales/catalogue/item/LocalAuthorities)
 - [GPX route map for Cardiff half-marathon](https://www.plotaroute.com/route/335077)
-
+- [Digital elevation models (DEM) from Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
 
 **Reading**
 
