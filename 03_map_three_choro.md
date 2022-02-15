@@ -18,7 +18,7 @@
 
 - Download the shapefile for [local authority boundaries (high water mark)](http://lle.gov.wales/catalogue/item/LocalAuthorities) and import
 
-- Filter the *local authority boundaries* to show just Cardiff. Use Vector / geoprocessing / clip to trim: the Input is the LSOA layer and the Overlay is the local authorities (currently filtered for just Cardiff)
+- Filter the *local authority boundaries* to show just Cardiff. Use Vector / geoprocessing / clip to trim: the Input is the LSOA layer and the Overlay is the local authorities (currently filtered for just Cardiff): "Only the parts of the input that fall within the Overlay layer will be added"
 
 - Adjust the coloring - again - to reflect each LSOA's ranking: PROPERTIES / SYMBOLOGY / Single Symbol --> Graduated / Value --> wimd_19_ranking_health / Color ramp / Mode --> Equal interval
 
