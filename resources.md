@@ -11,7 +11,7 @@
 **Introductory courses**
 
 - [Intro to mapping and GIS for journalists (Knight Center). 2018](https://journalismcourses.org/course/mappingandgis/)
-- [QGIS introductory tutorials](https://www.qgistutorials.com/en/) & [Spatial thoughts site (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html)
+- [QGIS introductory tutorials](https://www.qgistutorials.com/en/) & [Spatial thoughts site (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html) & [new Spatial thoughts course](https://courses.spatialthoughts.com/introduction-to-qgis)
 - [QGIS basics for journalists (Berkeley Advanced School of Journalism). NOTE: using version 1.6](https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/)
 - [Mapping & QGIS for journalists (Jonathan Soma)](https://jonathansoma.com/tutorials/mapping/)
 - [The QGIS introductory course](https://docs.qgis.org/testing/en/docs/gentle_gis_introduction/index.html#gentle-introduction-gis)
@@ -28,6 +28,7 @@
 - [Local authority boundaries in Wales, LLE](http://lle.gov.wales/catalogue/item/LocalAuthorities)
 - [GPX route map for Cardiff half-marathon](https://www.plotaroute.com/route/335077)
 - [Digital elevation models (DEM) from Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
+
 
 **Reading**
 
