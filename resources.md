@@ -13,6 +13,7 @@ The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and 
 
 **Introductory courses**
 
+- [QGIS is the mapping software you didn't know you needed (Christian Hollinger)](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/)
 - [Intro to mapping and GIS for journalists (Knight Center). 2018](https://journalismcourses.org/course/mappingandgis/)
 - [QGIS introductory tutorials](https://www.qgistutorials.com/en/) & [Spatial thoughts site (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html) & [new Spatial thoughts course](https://courses.spatialthoughts.com/introduction-to-qgis)
 - [QGIS basics for journalists (Berkeley Advanced School of Journalism). NOTE: using version 1.6](https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/)
