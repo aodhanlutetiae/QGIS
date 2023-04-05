@@ -1,4 +1,5 @@
 **Not QGIS**
+
 The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making maps quickly for online.
 
 **QGIS users online**
@@ -13,12 +14,14 @@ The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and 
 
 **Introductory courses**
 
-- [QGIS is the mapping software you didn't know you needed (Christian Hollinger)](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/)
+- [QGIS is the mapping software you didn't know you needed (Christian Hollinger). 2023](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/)
 - [Intro to mapping and GIS for journalists (Knight Center). 2018](https://journalismcourses.org/course/mappingandgis/)
 - [QGIS introductory tutorials](https://www.qgistutorials.com/en/) & [Spatial thoughts site (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html) & [new Spatial thoughts course](https://courses.spatialthoughts.com/introduction-to-qgis)
 - [QGIS basics for journalists (Berkeley Advanced School of Journalism). NOTE: using version 1.6](https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/)
 - [Mapping & QGIS for journalists (Jonathan Soma)](https://jonathansoma.com/tutorials/mapping/)
 - [The QGIS introductory course](https://docs.qgis.org/testing/en/docs/gentle_gis_introduction/index.html#gentle-introduction-gis)
+- [QGIS 1: for beginners (Nicar 2023)](https://ire-resources.s3.us-west-1.amazonaws.com/tipsheets/20230302-30077.pdf)
+- [QGIS 2: analysing geographic data (Nicar 2023)](https://ire-resources.s3.us-west-1.amazonaws.com/tipsheets/20230302-30078.pdf)
 
 
 **Geodata sources for walkthroughs in this repository**
