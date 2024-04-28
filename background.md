@@ -2,6 +2,10 @@
 
 Quantum GIS 1.0 was released in 2009; when version 2.0 was released in 2013, the name was changed to QGIS.
 
+WGS 84: The World Geodetic System 1984 (WGS 84). A 3-dimensional coordinate reference frame for establishing latitude, longitude and heights.
+
+EPSG:  European Petroleum Survey Group. 
+
 **[EPSG codes](https://epsg.io)**
 
 - EPSG 4326   WGS1984

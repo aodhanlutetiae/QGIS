@@ -4,7 +4,7 @@ The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and 
 
 **QGIS users online**
 
-- [User group for UK](https://qgis.uk/)
+- [User group for UK](https://uk.osgeo.org/qgis.html)
 - [Map examples on Flickr](https://www.flickr.com/groups/qgis/pool/)
 - [QGIS questions on GIS stack exchange](https://gis.stackexchange.com/questions/tagged/qgis)
 - [Users on Telegram](https://t.me/joinchat/Aq2V5RPoxYYhXqUPoxRWPQ)
@@ -14,6 +14,7 @@ The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and 
 
 **Introductory courses**
 
+- [Basic Principles for Mapping Data Using QGIS. GIJC 23. 40' video](https://www.youtube.com/watch?v=PuAaPXV5fs4)
 - [QGIS is the mapping software you didn't know you needed (Christian Hollinger). 2023](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/)
 - [Intro to mapping and GIS for journalists (Knight Center). 2018](https://journalismcourses.org/course/mappingandgis/)
 - [QGIS introductory tutorials](https://www.qgistutorials.com/en/) & [Spatial thoughts site (Ujaval Gandhi)](https://courses.spatialthoughts.com/spatial-data-viz.html) & [new Spatial thoughts course](https://courses.spatialthoughts.com/introduction-to-qgis)
@@ -26,22 +27,22 @@ The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and 
 
 **Geodata sources for walkthroughs in this repository**
 
-- [Listed buildings in Wales, LLE](http://lle.gov.wales/catalogue/item/ListedBuildings/?lang=en)
+- [Listed buildings in Wales, LLE](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings)
 - [Nuclear power stations around world (2011), Edinburgh datashare site](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
 - [European countries, Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)
 - [Global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
-- [LSOA areas in Wales, LLE](https://lle.gov.wales/catalogue/item/LowerSuperOutputAreas/?lang=en)
 - [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
-- [Local authority boundaries in Wales, LLE](http://lle.gov.wales/catalogue/item/LocalAuthorities)
+- [LSOA boundaries, Wales](https://datamap.gov.wales/layers/appdata-ons:lsoa_wales_2011)
+- [Local authority boundaries, Wales](https://datamap.gov.wales/layergroups/inspire-wg:LocalAuthorities)
 - [GPX route map for Cardiff half-marathon](https://www.plotaroute.com/route/335077)
 - [Digital elevation models (DEM) from Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
 
 
 **Reading**
 
-- [Making maps at the Economist with QGIS, Elisabeth Lees](https://view.e.economist.com/?qs=1ec14ababa3933b67b6cb7792075e240bc13fe05cb2dd846cad274da179900f73f5d98103eae2de33da62855c1062a0ad55d6e5f51bd250274364819ebb50067a0eb5aa080df6e00990a533b77cb4b89)
-- [Projections, The Economist. Adam Meara](https://view.e.economist.com/?qs=f23f9794d30266884e9b9ef47429adf7da882e50b39595b641a5d6098301ed904ee26b6d1c53959e76fc54d8378cc1044744044878958cbc9ddd549010032a9d956836cd74c64a36b9c7ff64de8615d3)
 - [How the FT designs map. Steven Bernard. 2018](https://www.ft.com/content/35188c6a-4870-11e8-8ee8-cae73aab7ccb) and [Use of QGIS at the FT's graphics team. 2016](https://www.qgis.org/en/site/about/case_studies/qgis_at_financial_times.html)
+<!-- - [Making maps at the Economist with QGIS, Elisabeth Lees](https://view.e.economist.com/?qs=1ec14ababa3933b67b6cb7792075e240bc13fe05cb2dd846cad274da179900f73f5d98103eae2de33da62855c1062a0ad55d6e5f51bd250274364819ebb50067a0eb5aa080df6e00990a533b77cb4b89)
+- [Projections, The Economist. Adam Meara](https://view.e.economist.com/?qs=f23f9794d30266884e9b9ef47429adf7da882e50b39595b641a5d6098301ed904ee26b6d1c53959e76fc54d8378cc1044744044878958cbc9ddd549010032a9d956836cd74c64a36b9c7ff64de8615d3) -->
 - [Spatial references. Arcgis](https://developers.arcgis.com/documentation/spatial-references/)
 - [The True Size Of (global projections)](https://thetruesize.com)
 - [GIS: a use case for journalists. Jacques Marcoux](https://datajournalism.com/read/longreads/geographic-information-systems-a-use-case-for-journalists)
