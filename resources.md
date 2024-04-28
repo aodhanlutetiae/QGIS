@@ -2,6 +2,7 @@
 
 The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making maps quickly for online.
 
+
 **QGIS users online**
 
 - [User group for UK](https://uk.osgeo.org/qgis.html)
@@ -41,8 +42,6 @@ The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and 
 **Reading**
 
 - [How the FT designs map. Steven Bernard. 2018](https://www.ft.com/content/35188c6a-4870-11e8-8ee8-cae73aab7ccb) and [Use of QGIS at the FT's graphics team. 2016](https://www.qgis.org/en/site/about/case_studies/qgis_at_financial_times.html)
-<!-- - [Making maps at the Economist with QGIS, Elisabeth Lees](https://view.e.economist.com/?qs=1ec14ababa3933b67b6cb7792075e240bc13fe05cb2dd846cad274da179900f73f5d98103eae2de33da62855c1062a0ad55d6e5f51bd250274364819ebb50067a0eb5aa080df6e00990a533b77cb4b89)
-- [Projections, The Economist. Adam Meara](https://view.e.economist.com/?qs=f23f9794d30266884e9b9ef47429adf7da882e50b39595b641a5d6098301ed904ee26b6d1c53959e76fc54d8378cc1044744044878958cbc9ddd549010032a9d956836cd74c64a36b9c7ff64de8615d3) -->
 - [Spatial references. Arcgis](https://developers.arcgis.com/documentation/spatial-references/)
 - [The True Size Of (global projections)](https://thetruesize.com)
 - [GIS: a use case for journalists. Jacques Marcoux](https://datajournalism.com/read/longreads/geographic-information-systems-a-use-case-for-journalists)
