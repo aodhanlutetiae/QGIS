@@ -4,7 +4,7 @@
 
 - Build a line and points map of the Cardiff half-marathon and produce a pdf map
 
-- Download the [GPX file](https://www.plotaroute.com/route/335077) (type TRACK & waypoints DIRECTIONS)
+- Download the [GPX file](https://www.plotaroute.com/route/335077) (GPX Type: TRACK & Waypoints: DIRECTIONS)
 
 - Import using Database manager (look for file under Vector)
 
@@ -12,20 +12,15 @@
 
 - Add a base layer (Stamen / Toner) and adjust the opacity on it to 15% (Properties / Transparency)
 
-- Adjust the colour and size of the points and line
+- Adjust the colour and size of the points and line (Trackpoints, Tracks)
 
 - Reorder the layers to have the finish point layer on top
 
 - Select the T text tool in the attributes toolbar and add a textbox beside the finish. Double click on the textbox to edit it
 
-- Open File / new print layout and add a title when prompted. Under Add Item, select Add Map. Your map is now selected: drag a rectangle over the empty print page to select the space it will occupy.
+- Open PROJECT / New Print Layout and add a title when prompted. Under Add Item, select Add Map. Your map is now selected: drag a rectangle over the empty print page to select the space it will occupy.
 
-<!-- - Return to the map. Select the Text tool and turn off annotations with CMD+T. Copy the base layer, adjust it for a wider view and put opacity at 100%
-
-- Return to the print layout and add the new base map in the corner of the print layout -->
-
-- Add Item / Add Shape / rectangle
-- Add Item / Scale toolbar
-- Add Item / Add label
+- Add Item / Add Scale Bar
+- Add Item / Add Label
 
 - Under Layout, export as SVG, image or pdf

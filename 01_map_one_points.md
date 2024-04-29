@@ -4,12 +4,6 @@
 
 - Build a points map using a downloaded shapefile and a base map, filter by a variable, and export as a html file
 
-**Preparation**
-
-- Install the qgis2web and quickmapservices plugins via: PLUGINS / MANAGE AND INSTALL PLUGINS
-
-- Install extra base maps via: WEB / QUICKMAPSERVICES / SETTINGS / MORE SERVICES THEN “Get Contributed Pack”
-
 **Start project & layout**
 
 - Ensure the Layer Panel is visible: VIEW / PANELS / Layers
