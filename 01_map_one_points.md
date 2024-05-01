@@ -2,7 +2,7 @@
 
 **Task**
 
-- Build a points map using a downloaded shapefile and a base map, filter by a variable, and export as a html file
+- Build a points map using a downloaded shapefile and a base map, filter by a variable, and export as a web page
 
 **Start project & layout**
 
@@ -19,20 +19,18 @@
 
 **Import files and assemble map**
 
-- On the [Welsh government map site](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings), download the *Listed Buildings* shapefile provided by Cadw
+- On the [Welsh government map site](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings), download the *Listed Buildings* zipped shapefile provided by Cadw, or [the protected wrecks dataset](https://datamap.gov.wales/layers/inspire-wg:Cadw_DesignatedWrecks)
 
 - Place the file in the directory you want to keep it in. If you move it after working with it the path files will be broken
 
 - Examine the files inside the shapefile folder. There should be .SHP, .PRJ and .DBF files
 
-- Import the shapefile into QGIS using
+- Import the shapefile (the .shp file or the zipped folder) into QGIS using
   - the Data Source Manager toolbar, or
   - LAYER / ADD LAYER / ADD VECTOR LAYER to locate the file locally via Source selector, or
   - find the file in the Browser panel and double click to load (or drag to Layer panel)
 
-<!-- - In the Layers panel, right-click on the Cadw_ListedBuildingsMPoint file and select Properties. Under Information, the CRS is “OSGB 1936” and under Source it reads "OSGB 1936 | British National Grid" -->
-
-- Add a base map: WEB / QUICK MAP SERVICES / OSM / OpenStreetMap Monochrome or ESRI Grey (light). Rename both layers (right click) if you wish
+- Add a base map: WEB / QUICK MAP SERVICES / OSM / OpenStreetMap
 
 - The base map layer appears in the Layers panel. Just as a demonstration, reorder the layers to hide the points layer: note that the layers obscure each other. Undo these steps
 
@@ -48,13 +46,16 @@
 
 **Save points layer as a separate file**
 
-- Right-click on layer, then: EXPORT / SAVE FEATURES AS. Choose File Name *and directory*
+- Right-click on layer, then: EXPORT / SAVE FEATURES AS. 
+  - Choose FORMAT: Esri shapefile
+  - Set the directory and choose a File Name
 
-- Rename the new layer and use 'Select fields to export' to remove unwanted fields (Also available via: Layer RC / PROPERTIES / FIELDS / Toggle editing mode / Delete)
+- Remove unwanted fields via: Layer RC / PROPERTIES / FIELDS / Toggle editing mode / (Select field) / Delete
 
 **Export for web**
 
 - WEB / QGIS2WEB / Create web map
 - Under ‘Export’ tab choose a destination where it will be easy to locate the generated web files
-- Under 'Appearance / Add Layers list', select a 'Collapsed Layers' list
+- Under 'Appearance' select 'Show popups on hover'
+<!-- - Under 'Appearance / Add Layers list', select a 'Collapsed Layers' list -->
 - Option to select 'Leaflet JS'

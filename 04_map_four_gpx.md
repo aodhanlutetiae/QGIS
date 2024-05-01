@@ -4,7 +4,7 @@
 
 - Build a line and points map of the Cardiff half-marathon and produce a pdf map
 
-- Download the [GPX file](https://www.plotaroute.com/route/335077) (GPX Type: TRACK & Waypoints: DIRECTIONS)
+- Download the [GPX file](https://raw.githubusercontent.com/aodhanlutetiae/QGIS/main/cardiff_half_marathon.gpx) that's in this repository
 
 - Import using Database manager (look for file under Vector)
 

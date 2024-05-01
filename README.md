@@ -13,6 +13,6 @@ DAY 1
 - Points map of power stations
 
 DAY 2
-- Choropleth map of the Welsh Deprivation Index (and version just for Cardiff)
+- Choropleth map of the Welsh Index of Multiple Deprivation
 - Elevation map of Cardiff area
 - Path map of Cardiff half marathon

@@ -1,8 +1,10 @@
 **Background**
 
-Quantum GIS 1.0 was released in 2009; when version 2.0 was released in 2013, the name was changed to QGIS. Version 3.36 is the latest (May, 2024) but 3.34 is the 'most stable version'. Room 1.03 (JOMEC) will install 3.30
+Quantum GIS 1.0 was released in 2009; when version 2.0 was released in 2013, the name was changed to QGIS. Room 1.03 (JOMEC) will install 3.30 and 3.22 is a good alternative.
 
 GIS:    Geographic Information System
+
+Shapefile:  A folder of files with the same name but different filetype extensions that includes geographical coordinates like points or lines (.shp) and a database of associated information (.dbf), as well as some optional files such as projections (.prj).
 
 WGS 84: The World Geodetic System 1984 (WGS 84). A 3-dimensional coordinate reference frame for establishing latitude, longitude and heights.
 
