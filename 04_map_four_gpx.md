@@ -10,7 +10,7 @@
 
 - Collect the route files into a group (right-click / Group)
 
-- Add a base layer (Stamen / Toner) and adjust the opacity on it to 15% (Properties / Transparency)
+- Add a base layer (WEB /) and adjust the opacity on it to 15% (Properties / Transparency)
 
 - Adjust the colour and size of the points and line (Trackpoints, Tracks)
 

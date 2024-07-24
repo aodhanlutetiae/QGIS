@@ -14,5 +14,5 @@ DAY 1
 
 DAY 2
 - Choropleth map of the Welsh Index of Multiple Deprivation
-- Elevation map of Cardiff area
 - Path map of Cardiff half marathon
+- Elevation map of Cardiff area
