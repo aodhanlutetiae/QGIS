@@ -8,7 +8,9 @@
 
 - Download and load [the shapefile for LSOA areas in Wales](https://datamap.gov.wales/layers/appdata-ons:lsoa_wales_2011). The CRS is OSGB 1936
 
-- Import the [wimd_19_ranking.csv](https://raw.githubusercontent.com/aodhanlutetiae/QGIS/main/wimd_19_ranking.csv) file that's in this repository. Set 'Geometry definition' to 'No geometry'. Download the [CSVT file](https://github.com/aodhanlutetiae/QGIS/raw/main/wimd_19_ranking.csvt) from this repository too - this indicates the datatype in the csv file - and place it in the same folder as your csv file
+- Download and import the [wimd_19_ranking.csv](https://github.com/aodhanlutetiae/QGIS/blob/main/wimd_19_ranking.csv) file that's in this repository. Set 'Geometry definition' to 'No geometry'. 
+
+<!-- - Download the [CSVT file](https://github.com/aodhanlutetiae/QGIS/raw/main/wimd_19_ranking.csvt) from this repository too this indicates the datatype in the csv file - and place it in the same folder as your csv file -->
 
 - Open the attributes table of the shapefile and the csv. Both have 1909 entries and both have a LSOA code column. You can also view the attributes of an area by using the info tool (i) in the Attributes toolbar
 
@@ -16,17 +18,17 @@
 
 - Check the attributes table of the shapefile to see it is now carrying the data, or use the i tool
 
-- Adjust the coloring to run red --> green, to reflect each LSOA's ranking (1 is most deprived, 1909 is least deprived): PROPERTIES / SYMBOLOGY / Single Symbol --> Graduated / Value --> wimd_19_ranking_health / Color ramp / Mode --> Equal interval
+- Adjust the coloring to run red --> green, to reflect each LSOA's ranking (1 is most deprived, 1909 is least deprived): PROPERTIES / SYMBOLOGY / Change from "Single Symbol" to "Graduated" / Value --> wimd_19_ranking_health / Color ramp / Mode --> Equal interval
 
-- Project / Import-Export / Export map to image: export a .pnf file of your map at this stage.
+- Project / Import-Export / Export map to image: export a .png file of your map at this stage.
 
 ===================
 
-- Download the shapefile for [local authority boundaries](https://datamap.gov.wales/layergroups/inspire-wg:LocalAuthorities) and import
+- Download the shapefile (high watermark) for [local authority boundaries](https://datamap.gov.wales/layergroups/inspire-wg:LocalAuthorities) and import
 
 - Filter the *local authorities* layer to show just Cardiff. 
 
-- Use Vector / Geoprocessing Tools / Clip to trim: the Input is the LSOA layer and the Overlay is the local authorities (currently filtered for just Cardiff): "Only the parts of the input that fall within the Overlay layer will be added"
+- Use Vector / Geoprocessing Tools / Clip: the Input is the LSOA layer and the Overlay is the local authorities (currently filtered for just Cardiff): "Only the parts of the input that fall within the Overlay layer will be added"
 
 - Adjust the coloring - again - to reflect each LSOA's ranking: PROPERTIES / SYMBOLOGY / Single Symbol --> Graduated / Value --> wimd_19_ranking_health / Color ramp / Mode --> Equal interval
 

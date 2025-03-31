@@ -1,5 +1,7 @@
 **QGIS Walkthrough 2: A points map of power stations**
 
+EUROSTAT LINK BELOW NO LONGER WORKING FOR COUNTRIES MAP -- THIS MAP IS ON HOLD
+
 **Task**
 
 - Build a map of power stations (2011)
@@ -8,7 +10,7 @@
 
 - Open a New Project (PROJECT / NEW) and save it in a location of your choice (PROJECT / SAVE AS)
 
-- Download the shapefile of nuclear power stations from [Edinburgh Datashare](https://datashare.ed.ac.uk/handle/10283/2464?show=full) ('Download all files')
+- Download the shapefile of nuclear power stations from [Edinburgh Datashare](https://datashare.ed.ac.uk/handle/10283/2464?show=full) ('Download all files'). Upzip the download to get to the zipped shapefile folder.
 
 - Import the .shp file or zipped SHP folder as a vector layer into QGIS. Check the CRS under PROJECT / PROPERTIES / INFORMATION and SOURCE: EPSG:4326. (You can also check the .PRJ file in the shapefile folder)
 

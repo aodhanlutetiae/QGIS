@@ -1,6 +1,6 @@
 **Introduction to QGIS**
 
-This 2-day introduction to the mapping software QGIS uses a series of exercises to make different maps, mostly in Wales. [Shortcut](bit.ly/jomec_qgis)
+This 2-day introduction to the mapping software QGIS uses a series of exercises to make different maps, mostly in Wales. 
 
 PREP
 - Read Marcoux 2019 (see [Resources](https://github.com/aodhanlutetiae/QGIS/blob/main/resources.md)) and the [background notes](https://github.com/aodhanlutetiae/QGIS/blob/main/background.md)

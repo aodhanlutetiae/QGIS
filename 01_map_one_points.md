@@ -6,6 +6,8 @@
 
 **Start project & layout**
 
+- Install plugins and base maps as explained [here](https://github.com/aodhanlutetiae/QGIS/blob/main/README.md).
+
 - Ensure the Layer Panel is visible: VIEW / PANELS / Layers
 
 - Ensure the Data Source Manager, Map Navigation and Attributes toolbars are visible
@@ -15,7 +17,7 @@
 
 - Open a New project (PROJECT/NEW) and save it in a folder of your choice (PROJECT / SAVE AS)
 
-- Check the CRS that the project is using as default (PROJECT / PROPERTIES / CRS)
+- Check the CRS (Coordinate Reference System) that the project is using as default (PROJECT / PROPERTIES / CRS)
 
 **Import files and assemble map**
 
@@ -25,7 +27,7 @@
 
 - Examine the files inside the shapefile folder. There should be .SHP, .PRJ and .DBF files
 
-- Import the shapefile (the .shp file or the zipped folder) into QGIS using
+- Import the shapefile (all the .shp files or the zipped folder) into QGIS using
   - the Data Source Manager toolbar, or
   - LAYER / ADD LAYER / ADD VECTOR LAYER to locate the file locally via Source selector, or
   - find the file in the Browser panel and double click to load (or drag to Layer panel)
@@ -34,15 +36,15 @@
 
 - The base map layer appears in the Layers panel. Just as a demonstration, reorder the layers to hide the points layer: note that the layers obscure each other. Undo these steps
 
-- Adjust the opacity of the base map (PROPERTIES / TRANSPARENCY)
+- Adjust the opacity of the base map (RC: PROPERTIES / TRANSPARENCY)
 
 **Filter data and colour symbols**
 
-- With a right-click on the Points layer select ‘Filter’. Select 'Grade' in Fields (upper left) then Sample or All in Values (upper right) to see what the different categories are for the ‘Grade’ variable attached to each data point. At the bottom of the dialogue box, write a SQL-like query to filter the data using a capital letter i and single quotes: Grade = 'I'
+- With a right-click on the Points layer (.shp) select ‘Filter’. Select 'Grade' in Fields (upper left) then Sample or All in Values (upper right) to see what the different categories are for the ‘Grade’ variable attached to each data point. At the bottom of the dialogue box, write a SQL-like filter using single quotes: Grade = 'I'
 
 - Using the layer Properties (right-click) select the Symbology tab and adjust the colour and size of the points
 
-- Using the Information tool on the Attributes toolbar click on a single point to see what information is attached
+- Using the Information tool (i) on the Attributes toolbar click on a single point to see what information is attached
 
 **Save points layer as a separate file**
 
@@ -50,12 +52,11 @@
   - Choose FORMAT: Esri shapefile
   - Set the directory and choose a File Name
 
-- Remove unwanted fields via: Layer RC / PROPERTIES / FIELDS / Toggle editing mode / (Select field) / Delete
+- The points layer will appear as a new layer whose fields can be edited. Remove unwanted fields via: Layer RC / PROPERTIES / FIELDS / Toggle editing mode / (Select field) / Delete
 
 **Export for web**
 
 - WEB / QGIS2WEB / Create web map
 - Under ‘Export’ tab choose a destination where it will be easy to locate the generated web files
 - Under 'Appearance' select 'Show popups on hover'
-<!-- - Under 'Appearance / Add Layers list', select a 'Collapsed Layers' list -->
-- Option to select 'Leaflet JS'
+- There is an option to select 'Leaflet JS'

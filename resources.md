@@ -1,6 +1,6 @@
 **Not QGIS**
 
-The [online mapmaking tool mapshaper](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making maps quickly for online.
+The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making maps quickly for online.
 
 
 **QGIS users online**
