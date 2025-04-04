@@ -2,6 +2,11 @@
 
 The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making maps quickly for online.
 
+**Projecting**
+
+- [The True Size Of (global projections)](https://thetruesize.com)
+- [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
+- [Working with projections: QGIS tutorial](https://www.qgistutorials.com/en/docs/3/working_with_projections.html)
 
 **QGIS users online**
 
@@ -30,23 +35,19 @@ The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and 
 
 - [Listed buildings in Wales, LLE](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings)
 - [Nuclear power stations around world (2011), Edinburgh datashare site](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
-- [European countries, Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries)
 - [Global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
 - [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
 - [LSOA boundaries, Wales](https://datamap.gov.wales/layers/appdata-ons:lsoa_wales_2011)
 - [Local authority boundaries, Wales](https://datamap.gov.wales/layergroups/inspire-wg:LocalAuthorities)
 - [GPX route map for Cardiff half-marathon](https://www.plotaroute.com/route/335077) GPX Type: TRACK & Waypoints: DIRECTIONS
-- [Digital elevation models (DEM) from Eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/elevation/copernicus-dem/elevation)
+- [LIDAR data for Wales for DEMs](https://datamap.gov.wales/maps/lidar-viewer/)
 
 
 **Reading**
 
+- [So you want to make a map. Noah Veltman](https://github.com/veltman/learninglunches/tree/master/maps)
 - [How the FT designs map. Steven Bernard. 2018](https://www.ft.com/content/35188c6a-4870-11e8-8ee8-cae73aab7ccb) and [Use of QGIS at the FT's graphics team. 2016](https://www.qgis.org/en/site/about/case_studies/qgis_at_financial_times.html)
 - [Spatial references. Arcgis](https://developers.arcgis.com/documentation/spatial-references/)
-- [The True Size Of (global projections)](https://thetruesize.com)
 - [GIS: a use case for journalists. Jacques Marcoux](https://datajournalism.com/read/longreads/geographic-information-systems-a-use-case-for-journalists)
 - [Mapschool: geo introduction](https://mapschool.io/)
-- [So you want to make a map. Noah Veltman](https://github.com/veltman/learninglunches/tree/master/maps)
 - [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
-- [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
-- [Working with projections: QGIS tutorial](https://www.qgistutorials.com/en/docs/3/working_with_projections.html)

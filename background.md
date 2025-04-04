@@ -6,7 +6,7 @@ GIS:    Geographic Information System
 
 Shapefile:  A folder of files with the same name but different filetype extensions that includes geographical coordinates like points or lines (.shp) and a database of associated information (.dbf), as well as some optional files such as projections (.prj).
 
-WGS 84: The World Geodetic System 1984 (WGS 84). A 3-dimensional coordinate reference frame for establishing latitude, longitude and heights.
+WGS 84: The World Geodetic System 1984 (WGS 84). A 3-dimensional coordinate reference system for establishing latitude, longitude and heights.
 
 EPSG:   European Petroleum Survey Group 
 
@@ -24,4 +24,4 @@ EPSG:   European Petroleum Survey Group
 - EPSG 3035   ETRS89-extended
   - Used for mapping Europe
 
-DEM:    Digital elevation model
+DEM:    Digital elevation model. A 3d representation of terrain using raster (not vector) files that use a grid of pixels.
