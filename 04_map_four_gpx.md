@@ -10,7 +10,7 @@
 
 <!-- - Collect the route files into a group (right-click / 'Group Selected') -->
 
-- Add a base layer (WEB /) and adjust the opacity on it to 20% (Properties / Transparency)
+- Add a base layer (WEB) and adjust the opacity on it to 20% (RC: Properties / Transparency)
 
 - Adjust the colour and size of the points (Trackpoints) and line (Tracks) via right-click and 'Properties'
 
