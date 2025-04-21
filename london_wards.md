@@ -1,4 +1,4 @@
-** Produce a map of counts by London electoral ward **
+**Produce a map of counts by London electoral ward**
 
 Download the ONS register of all UK geographic codes for reference: the latest version is [December 2024](https://geoportal.statistics.gov.uk/datasets/ons::register-of-geographic-codes-december-2024-for-the-uk/about). It tells us that England has 6,817 wards in use and that they all use a code that begins E05.
 
@@ -18,6 +18,8 @@ Assign a colour ramp: Properties / Symbology / Categorised / Value: total incide
 Filter out (right-click) the non London areas by setting "total_incidents_wardcodes_Number of incidents" != 'NULL'
 
 Add a base map (Web / Quick map services / OSM) and lower its transparency (RC / Properties)
+
+Adjust tooltips by right-click / Properties then Display: 
 
 Export as a webpage (Web / QGIS2Web / Create web map)
 - Layers & Groups: check you're exporting the Refactored layer and the base map layer (OSM Standard)
