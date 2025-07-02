@@ -8,9 +8,7 @@
 
 - Download and load [the shapefile for LSOA areas in Wales](https://datamap.gov.wales/layers/appdata-ons:lsoa_wales_2011). The CRS is OSGB 1936
 
-- Download and import the [wimd_19_ranking.csv](https://github.com/aodhanlutetiae/QGIS/blob/main/wimd_19_ranking.csv) file that's in this repository. Set 'Geometry definition' to 'No geometry'. 
-
-<!-- - Download the [CSVT file](https://github.com/aodhanlutetiae/QGIS/raw/main/wimd_19_ranking.csvt) from this repository too this indicates the datatype in the csv file - and place it in the same folder as your csv file -->
+- Download and import the [wimd_19_ranking.csv](https://github.com/aodhanlutetiae/QGIS/blob/main/wimd_19_ranking.csv) file that's in this repository. ([Source](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation)). Set 'Geometry definition' to 'No geometry'. 
 
 - Open the attributes table of the shapefile and the csv. Both have 1909 entries and both have a LSOA code column. You can also view the attributes of an area by using the info tool (i) in the Attributes toolbar
 

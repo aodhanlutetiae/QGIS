@@ -25,16 +25,10 @@ The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and 
 - [QGIS 2: analysing geographic data (Nicar 2023)](https://ire-resources.s3.us-west-1.amazonaws.com/tipsheets/20230302-30078.pdf)
 
 
-**Geodata sources for walkthroughs in this repository**
-
-- [Listed buildings in Wales, LLE](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings)
-- [Nuclear power stations around world (2011), Edinburgh datashare site](https://datashare.ed.ac.uk/handle/10283/2464?show=full)
-- [Global power dataset](https://datasets.wri.org/dataset/globalpowerplantdatabase)
-- [Welsh Index of Multiple Deprivation, 2019](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-Indicator-data-2019)
-- [LSOA boundaries, Wales](https://datamap.gov.wales/layers/appdata-ons:lsoa_wales_2011)
-- [Local authority boundaries, Wales](https://datamap.gov.wales/layergroups/inspire-wg:LocalAuthorities)
-- [GPX route map for Cardiff half-marathon](https://www.plotaroute.com/route/335077) GPX Type: TRACK & Waypoints: DIRECTIONS
-- [LIDAR data for Wales for DEMs](https://datamap.gov.wales/maps/lidar-viewer/)
+** More geographical data**
+- [Protected shipwrecks ](https://datamap.gov.wales/layers/inspire-wg:Cadw_DesignatedWrecks)
+- [UK electoral wards boundaries map, 2022](https://geoportal.statistics.gov.uk/datasets/wards-december-2022-boundaries-uk-bsc/explore) for all UK electoral wards. 
+- [ONS register of all UK geographic codes, Dec 2024](https://geoportal.statistics.gov.uk/datasets/ons::register-of-geographic-codes-december-2024-for-the-uk/about)
 
 
 **Reading**
