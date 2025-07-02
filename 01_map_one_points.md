@@ -21,7 +21,7 @@
 
 **Import files and assemble map**
 
-- On the [Welsh government map site](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings), download the *Listed Buildings* zipped shapefile provided by Cadw, or [the protected wrecks dataset](https://datamap.gov.wales/layers/inspire-wg:Cadw_DesignatedWrecks)
+- On the [Welsh government map site](https://datamap.gov.wales/layers/inspire-wg:Cadw_ListedBuildings), download the *Listed Buildings* zipped shapefile provided by Cadw, or [the protected wrecks shapefile](https://datamap.gov.wales/layers/inspire-wg:Cadw_DesignatedWrecks)
 
 - Place the file in the directory you want to keep it in. If you move it after working with it the path files will be broken
 

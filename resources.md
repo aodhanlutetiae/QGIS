@@ -1,12 +1,6 @@
 **Not QGIS**
 
-The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making maps quickly for online.
-
-**Projecting**
-
-- [The True Size Of (global projections)](https://thetruesize.com)
-- [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
-- [Working with projections: QGIS tutorial](https://www.qgistutorials.com/en/docs/3/working_with_projections.html)
+The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and smoothly with a lot of the same data formats that QGIS uses and is a useful resource for making online maps quickly.
 
 **QGIS users online**
 
@@ -51,3 +45,9 @@ The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and 
 - [GIS: a use case for journalists. Jacques Marcoux](https://datajournalism.com/read/longreads/geographic-information-systems-a-use-case-for-journalists)
 - [Mapschool: geo introduction](https://mapschool.io/)
 - [The ultimate list of GIS formats and geospatial file extensions](https://gisgeography.com/gis-formats/)
+
+**Projecting**
+
+- [The True Size Of (global projections)](https://thetruesize.com)
+- [Projections overview by Michael Corey](https://source.opennews.org/articles/choosing-right-map-projection/)
+- [Working with projections: QGIS tutorial](https://www.qgistutorials.com/en/docs/3/working_with_projections.html)

@@ -8,9 +8,7 @@ Shapefile:  A folder of files with the same name but different filetype extensio
 
 WGS 84: The World Geodetic System 1984 (WGS 84). A 3-dimensional coordinate reference system for establishing latitude, longitude and heights.
 
-EPSG:   European Petroleum Survey Group 
-
-**[EPSG codes](https://epsg.io)**
+**[EPSG (European Petroleum Survey Group) codes](https://epsg.io)**
 
 - EPSG 4326   WGS 1984
   - Esri [writes](https://developers.arcgis.com/documentation/spatial-references/): 4326 is the most common spatial reference for storing a referencing data across the entire world. It serves as the default for both the PostGIS spatial database and the GeoJSON standard
