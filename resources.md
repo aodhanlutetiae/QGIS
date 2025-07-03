@@ -25,7 +25,7 @@ The [online mapmaking tool MAPSHAPER](https://mapshaper.org/) works quickly and 
 - [QGIS 2: analysing geographic data (Nicar 2023)](https://ire-resources.s3.us-west-1.amazonaws.com/tipsheets/20230302-30078.pdf)
 
 
-** More geographical data**
+**More geographical data**
 - [Protected shipwrecks ](https://datamap.gov.wales/layers/inspire-wg:Cadw_DesignatedWrecks)
 - [UK electoral wards boundaries map, 2022](https://geoportal.statistics.gov.uk/datasets/wards-december-2022-boundaries-uk-bsc/explore) for all UK electoral wards. 
 - [ONS register of all UK geographic codes, Dec 2024](https://geoportal.statistics.gov.uk/datasets/ons::register-of-geographic-codes-december-2024-for-the-uk/about)

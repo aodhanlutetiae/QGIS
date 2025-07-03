@@ -10,6 +10,6 @@ PREP
 
 MAP MAKING
 - Points map of Grade 1 listed buildings in Wales
+- Points map of power stations around the world
 - Choropleth map of the Welsh Index of Multiple Deprivation
 - Path map of Cardiff half marathon
-- Elevation map of Cardiff area
